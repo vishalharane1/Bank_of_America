@@ -1,0 +1,3 @@
+2026-07-13 06:45:15,037 : INFO : test_VerifyURLAndTitle_001 : 15 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-13 06:45:17,107 : INFO : test_VerifyURLAndTitle_001 : 17 : URL---->https://apps.credence.in/
+2026-07-13 06:45:17,122 : INFO : test_VerifyURLAndTitle_001 : 18 : TITLE---->Bank Application
