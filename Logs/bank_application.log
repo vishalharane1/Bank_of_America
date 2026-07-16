@@ -1,3 +1,384 @@
 2026-07-13 06:45:15,037 : INFO : test_VerifyURLAndTitle_001 : 15 : -----Start VerifyURLAndTitle Test Case 1------
 2026-07-13 06:45:17,107 : INFO : test_VerifyURLAndTitle_001 : 17 : URL---->https://apps.credence.in/
 2026-07-13 06:45:17,122 : INFO : test_VerifyURLAndTitle_001 : 18 : TITLE---->Bank Application
+2026-07-16 20:14:41,464 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.115); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-16 20:15:36,926 : INFO : test_Singup_or_createuser_002 : 32 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 20:15:36,926 : INFO : test_Singup_or_createuser_002 : 33 : URL---->https://apps.credence.in/User.html
+2026-07-16 20:16:47,278 : INFO : test_Singup_or_createuser_002 : 32 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 20:16:47,278 : INFO : test_Singup_or_createuser_002 : 33 : URL---->https://apps.credence.in/User.html
+2026-07-16 20:16:48,506 : INFO : test_Singup_or_createuser_002 : 37 : username---->murthyagastya
+2026-07-16 20:16:48,551 : INFO : test_Singup_or_createuser_002 : 39 : password---->$iro7g$aA5
+2026-07-16 20:16:48,600 : INFO : test_Singup_or_createuser_002 : 41 : email---->tanvikhurana@example.net
+2026-07-16 20:16:48,657 : INFO : test_Singup_or_createuser_002 : 43 : phone---->08062002834
+2026-07-16 20:17:40,643 : INFO : test_Singup_or_createuser_002 : 32 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 20:17:40,644 : INFO : test_Singup_or_createuser_002 : 33 : URL---->https://apps.credence.in/User.html
+2026-07-16 20:17:42,755 : INFO : test_Singup_or_createuser_002 : 37 : username---->bhanumatisood
+2026-07-16 20:17:42,880 : INFO : test_Singup_or_createuser_002 : 39 : password---->!e8OK3iP!&
+2026-07-16 20:17:43,016 : INFO : test_Singup_or_createuser_002 : 41 : email---->godaharita@example.com
+2026-07-16 20:17:43,136 : INFO : test_Singup_or_createuser_002 : 43 : phone---->+910963772088
+2026-07-16 20:20:07,196 : INFO : test_Singup_or_createuser_002 : 32 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 20:20:07,197 : INFO : test_Singup_or_createuser_002 : 33 : URL---->https://apps.credence.in/User.html
+2026-07-16 20:20:10,416 : INFO : test_Singup_or_createuser_002 : 37 : username---->lavanya65
+2026-07-16 20:20:10,490 : INFO : test_Singup_or_createuser_002 : 39 : password---->J%n46AppG*
+2026-07-16 20:20:10,599 : INFO : test_Singup_or_createuser_002 : 41 : email---->rajuvyanjana@example.com
+2026-07-16 20:20:10,679 : INFO : test_Singup_or_createuser_002 : 43 : phone---->07874797292
+2026-07-16 21:23:15,068 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:23:15,069 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:23:39,289 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:23:39,290 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:23:39,728 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:23:39,729 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:02,348 : INFO : test_Singup_or_createuser_002 : 47 : username---->ekavirmane
+2026-07-16 21:24:02,487 : INFO : test_Singup_or_createuser_002 : 49 : password---->A8E(SiAq&8
+2026-07-16 21:24:02,622 : INFO : test_Singup_or_createuser_002 : 51 : email---->vpant@example.net
+2026-07-16 21:24:02,731 : INFO : test_Singup_or_createuser_002 : 53 : phone---->05777290023
+2026-07-16 21:24:11,006 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:24:11,007 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:13,101 : INFO : test_Singup_or_createuser_002 : 47 : username---->daksh63
+2026-07-16 21:24:13,218 : INFO : test_Singup_or_createuser_002 : 49 : password---->!1E_ZupgDB
+2026-07-16 21:24:13,357 : INFO : test_Singup_or_createuser_002 : 51 : email---->nicholassani@example.net
+2026-07-16 21:24:13,477 : INFO : test_Singup_or_createuser_002 : 53 : phone---->09068029762
+2026-07-16 21:24:21,734 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:24:21,735 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:22,446 : INFO : test_Singup_or_createuser_002 : 47 : username---->sarthakbahl
+2026-07-16 21:24:22,555 : INFO : test_Singup_or_createuser_002 : 49 : password---->e1L$g2Ut__
+2026-07-16 21:24:22,688 : INFO : test_Singup_or_createuser_002 : 51 : email---->mekhalachowdhury@example.org
+2026-07-16 21:24:22,816 : INFO : test_Singup_or_createuser_002 : 53 : phone---->5372348439
+2026-07-16 21:24:31,117 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:24:31,118 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:31,706 : INFO : test_Singup_or_createuser_002 : 47 : username---->waliaviraj
+2026-07-16 21:24:31,968 : INFO : test_Singup_or_createuser_002 : 49 : password---->5W8BL$ebo%
+2026-07-16 21:24:32,223 : INFO : test_Singup_or_createuser_002 : 51 : email---->watika84@example.net
+2026-07-16 21:24:32,457 : INFO : test_Singup_or_createuser_002 : 53 : phone---->6512333685
+2026-07-16 21:24:42,977 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:24:42,977 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:44,424 : INFO : test_Singup_or_createuser_002 : 47 : username---->jsarna
+2026-07-16 21:24:44,603 : INFO : test_Singup_or_createuser_002 : 49 : password---->h6Jj4%U9%M
+2026-07-16 21:24:44,772 : INFO : test_Singup_or_createuser_002 : 51 : email---->fbaria@example.org
+2026-07-16 21:24:44,911 : INFO : test_Singup_or_createuser_002 : 53 : phone---->5919540996
+2026-07-16 21:24:53,514 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:24:53,514 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:24:54,076 : INFO : test_Singup_or_createuser_002 : 47 : username---->takdayamai
+2026-07-16 21:24:54,170 : INFO : test_Singup_or_createuser_002 : 49 : password---->_o2TecXky@
+2026-07-16 21:24:54,266 : INFO : test_Singup_or_createuser_002 : 51 : email---->wbuch@example.net
+2026-07-16 21:24:54,374 : INFO : test_Singup_or_createuser_002 : 53 : phone---->07410688732
+2026-07-16 21:25:02,566 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:25:02,566 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:25:03,194 : INFO : test_Singup_or_createuser_002 : 47 : username---->benjamin02
+2026-07-16 21:25:03,296 : INFO : test_Singup_or_createuser_002 : 49 : password---->$5MvbcGpmA
+2026-07-16 21:25:03,400 : INFO : test_Singup_or_createuser_002 : 51 : email---->bhagatkamala@example.com
+2026-07-16 21:25:03,508 : INFO : test_Singup_or_createuser_002 : 53 : phone---->04121319368
+2026-07-16 21:25:12,059 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:25:12,059 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:25:12,616 : INFO : test_Singup_or_createuser_002 : 47 : username---->krishnayadavi
+2026-07-16 21:25:12,726 : INFO : test_Singup_or_createuser_002 : 49 : password---->H7LDzwrm##
+2026-07-16 21:25:12,819 : INFO : test_Singup_or_createuser_002 : 51 : email---->christopherravel@example.net
+2026-07-16 21:25:12,909 : INFO : test_Singup_or_createuser_002 : 53 : phone---->+918534218648
+2026-07-16 21:25:21,116 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:25:21,116 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:25:21,533 : INFO : test_Singup_or_createuser_002 : 47 : username---->lalabanjeet
+2026-07-16 21:25:21,606 : INFO : test_Singup_or_createuser_002 : 49 : password---->ufg8qSi+E)
+2026-07-16 21:25:21,675 : INFO : test_Singup_or_createuser_002 : 51 : email---->girindrabhatnagar@example.net
+2026-07-16 21:25:21,747 : INFO : test_Singup_or_createuser_002 : 53 : phone---->00991801951
+2026-07-16 21:25:29,879 : INFO : test_Singup_or_createuser_002 : 42 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:25:29,879 : INFO : test_Singup_or_createuser_002 : 43 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:25:30,403 : INFO : test_Singup_or_createuser_002 : 47 : username---->utkarsh68
+2026-07-16 21:25:30,471 : INFO : test_Singup_or_createuser_002 : 49 : password---->5Cau$5Lifu
+2026-07-16 21:25:30,540 : INFO : test_Singup_or_createuser_002 : 51 : email---->yadavishetty@example.org
+2026-07-16 21:25:30,614 : INFO : test_Singup_or_createuser_002 : 53 : phone---->0917601073
+2026-07-16 21:31:53,668 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->12------
+2026-07-16 21:31:53,669 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:40:30,117 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:40:30,117 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:40:30,212 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:40:30,212 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:40:55,990 : INFO : test_Singup_or_createuser_002 : 51 : username---->pkrish
+2026-07-16 21:40:56,078 : INFO : test_Singup_or_createuser_002 : 53 : password---->*6XK(jdTyH
+2026-07-16 21:40:56,214 : INFO : test_Singup_or_createuser_002 : 55 : email---->edhithasaran@example.org
+2026-07-16 21:40:56,292 : INFO : test_Singup_or_createuser_002 : 57 : phone---->06155026025
+2026-07-16 21:41:14,572 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:41:14,572 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:41:29,685 : INFO : test_Singup_or_createuser_002 : 51 : username---->xgoda
+2026-07-16 21:41:29,759 : INFO : test_Singup_or_createuser_002 : 53 : password---->VX@K7lbiE_
+2026-07-16 21:41:29,841 : INFO : test_Singup_or_createuser_002 : 55 : email---->warda53@example.net
+2026-07-16 21:41:29,913 : INFO : test_Singup_or_createuser_002 : 57 : phone---->3570859193
+2026-07-16 21:41:48,112 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:41:48,112 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:41:52,500 : INFO : test_Singup_or_createuser_002 : 51 : username---->pallavisangha
+2026-07-16 21:41:52,569 : INFO : test_Singup_or_createuser_002 : 53 : password---->aHEYHq^!@7
+2026-07-16 21:41:52,635 : INFO : test_Singup_or_createuser_002 : 55 : email---->tmallick@example.org
+2026-07-16 21:41:52,704 : INFO : test_Singup_or_createuser_002 : 57 : phone---->+918736362241
+2026-07-16 21:42:10,974 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:42:10,974 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:42:12,294 : INFO : test_Singup_or_createuser_002 : 51 : username---->bhavna39
+2026-07-16 21:42:12,374 : INFO : test_Singup_or_createuser_002 : 53 : password---->Q8MWu$Hz^T
+2026-07-16 21:42:12,460 : INFO : test_Singup_or_createuser_002 : 55 : email---->aarinicherian@example.net
+2026-07-16 21:42:12,530 : INFO : test_Singup_or_createuser_002 : 57 : phone---->+915999483395
+2026-07-16 21:42:30,749 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:42:30,750 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:42:33,858 : INFO : test_Singup_or_createuser_002 : 51 : username---->mtara
+2026-07-16 21:42:33,931 : INFO : test_Singup_or_createuser_002 : 53 : password---->R969Hib&*(
+2026-07-16 21:42:34,018 : INFO : test_Singup_or_createuser_002 : 55 : email---->darchaaya@example.org
+2026-07-16 21:42:34,092 : INFO : test_Singup_or_createuser_002 : 57 : phone---->1874376348
+2026-07-16 21:42:52,322 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:42:52,322 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:42:55,060 : INFO : test_Singup_or_createuser_002 : 51 : username---->bumbhenry
+2026-07-16 21:42:55,139 : INFO : test_Singup_or_createuser_002 : 53 : password---->^sz6*Oqv0G
+2026-07-16 21:42:55,208 : INFO : test_Singup_or_createuser_002 : 55 : email---->dashabdul@example.com
+2026-07-16 21:42:55,284 : INFO : test_Singup_or_createuser_002 : 57 : phone---->+911288548187
+2026-07-16 21:43:13,519 : INFO : test_Singup_or_createuser_002 : 46 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:43:13,519 : INFO : test_Singup_or_createuser_002 : 47 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:43:14,878 : INFO : test_Singup_or_createuser_002 : 51 : username---->yuvrajbatta
+2026-07-16 21:43:14,970 : INFO : test_Singup_or_createuser_002 : 53 : password---->Uz0zS%LfT*
+2026-07-16 21:43:15,060 : INFO : test_Singup_or_createuser_002 : 55 : email---->henry56@example.com
+2026-07-16 21:43:15,153 : INFO : test_Singup_or_createuser_002 : 57 : phone---->06547904020
+2026-07-16 21:45:04,780 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:45:04,781 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:45:05,030 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:45:05,030 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:45:08,017 : INFO : test_Singup_or_createuser_002 : 53 : username---->amodi
+2026-07-16 21:45:08,118 : INFO : test_Singup_or_createuser_002 : 56 : password---->@32Wo%7DCa
+2026-07-16 21:45:08,210 : INFO : test_Singup_or_createuser_002 : 58 : email---->eesha53@example.com
+2026-07-16 21:45:08,304 : INFO : test_Singup_or_createuser_002 : 60 : phone---->9022804379
+2026-07-16 21:45:26,592 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:45:26,592 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:45:27,616 : INFO : test_Singup_or_createuser_002 : 53 : username---->abhanayak
+2026-07-16 21:45:27,675 : INFO : test_Singup_or_createuser_002 : 56 : password---->d#1(BXxd3N
+2026-07-16 21:45:27,738 : INFO : test_Singup_or_createuser_002 : 58 : email---->wyatt31@example.org
+2026-07-16 21:45:27,800 : INFO : test_Singup_or_createuser_002 : 60 : phone---->7512542734
+2026-07-16 21:45:46,020 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:45:46,021 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:45:46,637 : INFO : test_Singup_or_createuser_002 : 53 : username---->tnatt
+2026-07-16 21:45:46,742 : INFO : test_Singup_or_createuser_002 : 56 : password---->Bz2ByiYip%
+2026-07-16 21:45:46,845 : INFO : test_Singup_or_createuser_002 : 58 : email---->vanyabose@example.com
+2026-07-16 21:45:46,938 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+913758359515
+2026-07-16 21:46:05,241 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:46:05,242 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:46:06,163 : INFO : test_Singup_or_createuser_002 : 53 : username---->pmerchant
+2026-07-16 21:46:06,241 : INFO : test_Singup_or_createuser_002 : 56 : password---->H)W8$$PNEv
+2026-07-16 21:46:06,334 : INFO : test_Singup_or_createuser_002 : 58 : email---->mangalanika@example.org
+2026-07-16 21:46:06,417 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+918397860480
+2026-07-16 21:46:24,619 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:46:24,619 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:46:24,956 : INFO : test_Singup_or_createuser_002 : 53 : username---->kotamugdha
+2026-07-16 21:46:25,037 : INFO : test_Singup_or_createuser_002 : 56 : password---->$#83MhryZW
+2026-07-16 21:46:25,117 : INFO : test_Singup_or_createuser_002 : 58 : email---->omkaar03@example.org
+2026-07-16 21:46:25,204 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+910026368694
+2026-07-16 21:46:58,537 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:46:58,538 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:46:59,103 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:46:59,104 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:47:10,402 : INFO : test_Singup_or_createuser_002 : 53 : username---->nandagautami
+2026-07-16 21:47:10,481 : INFO : test_Singup_or_createuser_002 : 56 : password---->(m5VVNbvy#
+2026-07-16 21:47:10,565 : INFO : test_Singup_or_createuser_002 : 58 : email---->yahvisaxena@example.com
+2026-07-16 21:47:10,642 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+911338035894
+2026-07-16 21:53:30,483 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 21:53:30,483 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 21:53:30,585 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 21:53:30,585 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 21:53:36,604 : INFO : test_Singup_or_createuser_002 : 53 : username---->tiwarilakshit
+2026-07-16 21:53:36,680 : INFO : test_Singup_or_createuser_002 : 56 : password---->EaRU+P7P%3
+2026-07-16 21:53:36,767 : INFO : test_Singup_or_createuser_002 : 58 : email---->daveabhimanyu@example.com
+2026-07-16 21:53:36,841 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+917268552794
+2026-07-16 22:03:24,589 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:03:24,590 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:04:39,014 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:04:39,017 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:04:39,581 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:04:39,581 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:12:20,864 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:12:20,865 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:12:21,136 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:12:21,137 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:12:24,615 : INFO : test_Singup_or_createuser_002 : 53 : username---->rauurvashi
+2026-07-16 22:12:24,699 : INFO : test_Singup_or_createuser_002 : 56 : password---->$CAYI!h_I6
+2026-07-16 22:12:24,788 : INFO : test_Singup_or_createuser_002 : 58 : email---->kadegeorge@example.org
+2026-07-16 22:12:24,885 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+916724640257
+2026-07-16 22:13:41,870 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:13:41,871 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:13:42,188 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:13:42,189 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:13:43,472 : INFO : test_Singup_or_createuser_002 : 53 : username---->vigchandran
+2026-07-16 22:13:43,527 : INFO : test_Singup_or_createuser_002 : 56 : password---->$9rMqlu9$D
+2026-07-16 22:13:43,586 : INFO : test_Singup_or_createuser_002 : 58 : email---->ojas79@example.org
+2026-07-16 22:13:43,649 : INFO : test_Singup_or_createuser_002 : 60 : phone---->9224557594
+2026-07-16 22:13:52,765 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:13:52,765 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:13:53,194 : INFO : test_Singup_or_createuser_002 : 53 : username---->anushapillay
+2026-07-16 22:13:53,271 : INFO : test_Singup_or_createuser_002 : 56 : password---->s4*EUjxw$s
+2026-07-16 22:13:53,391 : INFO : test_Singup_or_createuser_002 : 58 : email---->avnigandhi@example.net
+2026-07-16 22:13:53,475 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+916519365953
+2026-07-16 22:14:02,441 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:02,441 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:02,928 : INFO : test_Singup_or_createuser_002 : 53 : username---->nmurthy
+2026-07-16 22:14:03,004 : INFO : test_Singup_or_createuser_002 : 56 : password---->$n8r(Ne2#m
+2026-07-16 22:14:03,080 : INFO : test_Singup_or_createuser_002 : 58 : email---->bsampath@example.com
+2026-07-16 22:14:03,167 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+916164809865
+2026-07-16 22:14:12,372 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:12,372 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:13,434 : INFO : test_Singup_or_createuser_002 : 53 : username---->royosha
+2026-07-16 22:14:13,514 : INFO : test_Singup_or_createuser_002 : 56 : password---->_9)!VH_bv2
+2026-07-16 22:14:13,602 : INFO : test_Singup_or_createuser_002 : 58 : email---->upma02@example.com
+2026-07-16 22:14:13,671 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+912230479189
+2026-07-16 22:14:22,776 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:22,776 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:23,312 : INFO : test_Singup_or_createuser_002 : 53 : username---->watika94
+2026-07-16 22:14:23,398 : INFO : test_Singup_or_createuser_002 : 56 : password---->_@76XPHc2q
+2026-07-16 22:14:23,507 : INFO : test_Singup_or_createuser_002 : 58 : email---->borahvedika@example.com
+2026-07-16 22:14:23,584 : INFO : test_Singup_or_createuser_002 : 60 : phone---->8447278714
+2026-07-16 22:14:33,423 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:33,423 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:34,204 : INFO : test_Singup_or_createuser_002 : 53 : username---->oviya23
+2026-07-16 22:14:34,287 : INFO : test_Singup_or_createuser_002 : 56 : password---->wtEd6NeN^6
+2026-07-16 22:14:34,367 : INFO : test_Singup_or_createuser_002 : 58 : email---->rsarma@example.com
+2026-07-16 22:14:34,444 : INFO : test_Singup_or_createuser_002 : 60 : phone---->07273003680
+2026-07-16 22:14:43,395 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:43,395 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:44,264 : INFO : test_Singup_or_createuser_002 : 53 : username---->beraira
+2026-07-16 22:14:44,334 : INFO : test_Singup_or_createuser_002 : 56 : password---->!bvEUXLvI0
+2026-07-16 22:14:44,415 : INFO : test_Singup_or_createuser_002 : 58 : email---->gavin12@example.com
+2026-07-16 22:14:44,496 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+915362101118
+2026-07-16 22:14:53,508 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:14:53,509 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:14:54,069 : INFO : test_Singup_or_createuser_002 : 53 : username---->ahujaaahana
+2026-07-16 22:14:54,154 : INFO : test_Singup_or_createuser_002 : 56 : password---->)8XvF19y$%
+2026-07-16 22:14:54,243 : INFO : test_Singup_or_createuser_002 : 58 : email---->yutikamanda@example.org
+2026-07-16 22:14:54,328 : INFO : test_Singup_or_createuser_002 : 60 : phone---->01276612781
+2026-07-16 22:15:04,083 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:15:04,083 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:15:04,569 : INFO : test_Singup_or_createuser_002 : 53 : username---->chowdhurykai
+2026-07-16 22:15:04,671 : INFO : test_Singup_or_createuser_002 : 56 : password---->v$*5IWu0zC
+2026-07-16 22:15:04,760 : INFO : test_Singup_or_createuser_002 : 58 : email---->kramaswamy@example.org
+2026-07-16 22:15:04,827 : INFO : test_Singup_or_createuser_002 : 60 : phone---->3591765535
+2026-07-16 22:15:14,687 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:15:14,687 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:15:15,921 : INFO : test_Singup_or_createuser_002 : 53 : username---->yashvi77
+2026-07-16 22:15:15,987 : INFO : test_Singup_or_createuser_002 : 56 : password---->t8&C1DZh!n
+2026-07-16 22:15:16,084 : INFO : test_Singup_or_createuser_002 : 58 : email---->anitaparmer@example.com
+2026-07-16 22:15:16,163 : INFO : test_Singup_or_createuser_002 : 60 : phone---->00120243940
+2026-07-16 22:17:17,307 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->12------
+2026-07-16 22:17:17,308 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:17:43,564 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:17:43,565 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:17:43,799 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:17:43,800 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:17:45,416 : INFO : test_Singup_or_createuser_002 : 53 : username---->leela84
+2026-07-16 22:17:45,480 : INFO : test_Singup_or_createuser_002 : 56 : password---->$Y5LBknL@4
+2026-07-16 22:17:45,551 : INFO : test_Singup_or_createuser_002 : 58 : email---->aditya10@example.net
+2026-07-16 22:17:45,611 : INFO : test_Singup_or_createuser_002 : 60 : phone---->3152398752
+2026-07-16 22:17:54,808 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:17:54,808 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:17:55,132 : INFO : test_Singup_or_createuser_002 : 53 : username---->hemang85
+2026-07-16 22:17:55,219 : INFO : test_Singup_or_createuser_002 : 56 : password---->^Ll1Zx3sbH
+2026-07-16 22:17:55,295 : INFO : test_Singup_or_createuser_002 : 58 : email---->lsharma@example.org
+2026-07-16 22:17:55,370 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+914336004372
+2026-07-16 22:18:04,437 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:04,437 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:04,860 : INFO : test_Singup_or_createuser_002 : 53 : username---->mekhala90
+2026-07-16 22:18:04,940 : INFO : test_Singup_or_createuser_002 : 56 : password---->t!+9mKcGrr
+2026-07-16 22:18:05,023 : INFO : test_Singup_or_createuser_002 : 58 : email---->aahana39@example.net
+2026-07-16 22:18:05,103 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+915614163883
+2026-07-16 22:18:16,384 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:16,384 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:17,760 : INFO : test_Singup_or_createuser_002 : 53 : username---->arunima52
+2026-07-16 22:18:17,828 : INFO : test_Singup_or_createuser_002 : 56 : password---->6(z4yR#D0w
+2026-07-16 22:18:17,897 : INFO : test_Singup_or_createuser_002 : 58 : email---->osha62@example.org
+2026-07-16 22:18:17,966 : INFO : test_Singup_or_createuser_002 : 60 : phone---->4154037306
+2026-07-16 22:18:26,947 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:26,948 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:27,303 : INFO : test_Singup_or_createuser_002 : 53 : username---->ravelbaghyawati
+2026-07-16 22:18:27,399 : INFO : test_Singup_or_createuser_002 : 56 : password---->3H1YIDUm&d
+2026-07-16 22:18:27,479 : INFO : test_Singup_or_createuser_002 : 58 : email---->lucky63@example.net
+2026-07-16 22:18:27,567 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+913115104747
+2026-07-16 22:18:37,603 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:37,603 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:38,102 : INFO : test_Singup_or_createuser_002 : 53 : username---->routamrita
+2026-07-16 22:18:38,184 : INFO : test_Singup_or_createuser_002 : 56 : password---->)8bAD^v&tJ
+2026-07-16 22:18:38,268 : INFO : test_Singup_or_createuser_002 : 58 : email---->qadimrattan@example.com
+2026-07-16 22:18:38,352 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+914292249588
+2026-07-16 22:18:47,237 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:47,237 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:47,678 : INFO : test_Singup_or_createuser_002 : 53 : username---->jack88
+2026-07-16 22:18:47,749 : INFO : test_Singup_or_createuser_002 : 56 : password---->%rQMzCcKq3
+2026-07-16 22:18:47,835 : INFO : test_Singup_or_createuser_002 : 58 : email---->nigamishita@example.net
+2026-07-16 22:18:47,927 : INFO : test_Singup_or_createuser_002 : 60 : phone---->7886298818
+2026-07-16 22:18:57,150 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:18:57,150 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:18:57,538 : INFO : test_Singup_or_createuser_002 : 53 : username---->chaudharisarthak
+2026-07-16 22:18:57,621 : INFO : test_Singup_or_createuser_002 : 56 : password---->rF+5P0gK6V
+2026-07-16 22:18:57,715 : INFO : test_Singup_or_createuser_002 : 58 : email---->balasubramanianqasim@example.net
+2026-07-16 22:18:57,791 : INFO : test_Singup_or_createuser_002 : 60 : phone---->5905850158
+2026-07-16 22:19:06,670 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:19:06,671 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:19:12,751 : INFO : test_Singup_or_createuser_002 : 53 : username---->ogera
+2026-07-16 22:19:12,835 : INFO : test_Singup_or_createuser_002 : 56 : password---->O^1J&UTpdg
+2026-07-16 22:19:12,925 : INFO : test_Singup_or_createuser_002 : 58 : email---->gourbahadurjit@example.com
+2026-07-16 22:19:12,998 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+911562889665
+2026-07-16 22:19:38,328 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:19:38,328 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:19:39,283 : INFO : test_Singup_or_createuser_002 : 53 : username---->fbera
+2026-07-16 22:19:39,373 : INFO : test_Singup_or_createuser_002 : 56 : password---->2a42aV0e$M
+2026-07-16 22:19:39,451 : INFO : test_Singup_or_createuser_002 : 58 : email---->ladli48@example.org
+2026-07-16 22:19:39,538 : INFO : test_Singup_or_createuser_002 : 60 : phone---->05152294714
+2026-07-16 22:21:04,265 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->11------
+2026-07-16 22:21:04,266 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-16 22:21:04,547 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:21:04,547 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:21:05,911 : INFO : test_Singup_or_createuser_002 : 53 : username---->waglenilima
+2026-07-16 22:21:05,965 : INFO : test_Singup_or_createuser_002 : 56 : password---->(PDzP_sfK7
+2026-07-16 22:21:06,033 : INFO : test_Singup_or_createuser_002 : 58 : email---->surabarkha@example.com
+2026-07-16 22:21:06,108 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+916371640050
+2026-07-16 22:21:16,172 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:21:16,172 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:21:16,548 : INFO : test_Singup_or_createuser_002 : 53 : username---->dbail
+2026-07-16 22:21:16,612 : INFO : test_Singup_or_createuser_002 : 56 : password---->@2bBntDjQ4
+2026-07-16 22:21:16,681 : INFO : test_Singup_or_createuser_002 : 58 : email---->mannranveer@example.org
+2026-07-16 22:21:16,741 : INFO : test_Singup_or_createuser_002 : 60 : phone---->02509565628
+2026-07-16 22:21:25,569 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:21:25,569 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:21:25,962 : INFO : test_Singup_or_createuser_002 : 53 : username---->yashasvishenoy
+2026-07-16 22:21:26,021 : INFO : test_Singup_or_createuser_002 : 56 : password---->##ADvC7_&9
+2026-07-16 22:21:26,076 : INFO : test_Singup_or_createuser_002 : 58 : email---->pallaeta@example.org
+2026-07-16 22:21:26,131 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+917677181566
+2026-07-16 22:21:43,610 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:21:43,610 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:21:45,351 : INFO : test_Singup_or_createuser_002 : 53 : username---->nitesh14
+2026-07-16 22:21:45,432 : INFO : test_Singup_or_createuser_002 : 56 : password---->MFVk4x_t)0
+2026-07-16 22:21:45,531 : INFO : test_Singup_or_createuser_002 : 58 : email---->urishilla76@example.net
+2026-07-16 22:21:45,613 : INFO : test_Singup_or_createuser_002 : 60 : phone---->00078535750
+2026-07-16 22:21:55,096 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:21:55,096 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:21:55,640 : INFO : test_Singup_or_createuser_002 : 53 : username---->geraryan
+2026-07-16 22:21:55,705 : INFO : test_Singup_or_createuser_002 : 56 : password---->&Y1NT!Ei)*
+2026-07-16 22:21:55,816 : INFO : test_Singup_or_createuser_002 : 58 : email---->chakradharkurian@example.com
+2026-07-16 22:21:55,878 : INFO : test_Singup_or_createuser_002 : 60 : phone---->6969718021
+2026-07-16 22:22:04,753 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:22:04,753 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:22:05,631 : INFO : test_Singup_or_createuser_002 : 53 : username---->menonqushi
+2026-07-16 22:22:05,713 : INFO : test_Singup_or_createuser_002 : 56 : password---->MF2RZww4p+
+2026-07-16 22:22:05,788 : INFO : test_Singup_or_createuser_002 : 58 : email---->xkeer@example.com
+2026-07-16 22:22:05,890 : INFO : test_Singup_or_createuser_002 : 60 : phone---->00030495396
+2026-07-16 22:22:18,330 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:22:18,330 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:22:20,402 : INFO : test_Singup_or_createuser_002 : 53 : username---->tanveer19
+2026-07-16 22:22:20,498 : INFO : test_Singup_or_createuser_002 : 56 : password---->6)TKqCbi+b
+2026-07-16 22:22:20,584 : INFO : test_Singup_or_createuser_002 : 58 : email---->mpatla@example.net
+2026-07-16 22:22:20,671 : INFO : test_Singup_or_createuser_002 : 60 : phone---->03797336250
+2026-07-16 22:22:29,712 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:22:29,712 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:22:30,037 : INFO : test_Singup_or_createuser_002 : 53 : username---->duabalhaar
+2026-07-16 22:22:30,122 : INFO : test_Singup_or_createuser_002 : 56 : password---->O692Xtk3(q
+2026-07-16 22:22:30,209 : INFO : test_Singup_or_createuser_002 : 58 : email---->zaidpurohit@example.org
+2026-07-16 22:22:30,276 : INFO : test_Singup_or_createuser_002 : 60 : phone---->9259081927
+2026-07-16 22:22:39,117 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:22:39,118 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:22:41,467 : INFO : test_Singup_or_createuser_002 : 53 : username---->jhalak30
+2026-07-16 22:22:41,550 : INFO : test_Singup_or_createuser_002 : 56 : password---->$5IOW#vq7k
+2026-07-16 22:22:41,626 : INFO : test_Singup_or_createuser_002 : 58 : email---->qarin76@example.com
+2026-07-16 22:22:41,703 : INFO : test_Singup_or_createuser_002 : 60 : phone---->04102100718
+2026-07-16 22:22:50,686 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-16 22:22:50,687 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-16 22:22:51,063 : INFO : test_Singup_or_createuser_002 : 53 : username---->wagleishaan
+2026-07-16 22:22:51,128 : INFO : test_Singup_or_createuser_002 : 56 : password---->AwQ+KNJy^3
+2026-07-16 22:22:51,198 : INFO : test_Singup_or_createuser_002 : 58 : email---->lilareddy@example.org
+2026-07-16 22:22:51,288 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+914297324937
