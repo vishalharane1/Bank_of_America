@@ -382,3 +382,88 @@
 2026-07-16 22:22:51,128 : INFO : test_Singup_or_createuser_002 : 56 : password---->AwQ+KNJy^3
 2026-07-16 22:22:51,198 : INFO : test_Singup_or_createuser_002 : 58 : email---->lilareddy@example.org
 2026-07-16 22:22:51,288 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+914297324937
+2026-07-17 06:52:06,235 : INFO : test_Singup_or_createuser_002 : 30 : -----max row--->6------
+2026-07-17 06:52:06,239 : INFO : test_Singup_or_createuser_002 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-17 06:52:06,515 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-17 06:52:06,516 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-17 06:52:08,257 : INFO : test_Singup_or_createuser_002 : 53 : username---->tanveernagi
+2026-07-17 06:52:08,298 : INFO : test_Singup_or_createuser_002 : 56 : password---->Dg&26zOkj3
+2026-07-17 06:52:08,347 : INFO : test_Singup_or_createuser_002 : 58 : email---->kandariya@example.org
+2026-07-17 06:52:08,388 : INFO : test_Singup_or_createuser_002 : 60 : phone---->7409698672
+2026-07-17 06:52:09,711 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-17 06:52:09,712 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-17 06:52:09,977 : INFO : test_Singup_or_createuser_002 : 53 : username---->mahajanekalinga
+2026-07-17 06:52:10,016 : INFO : test_Singup_or_createuser_002 : 56 : password---->jse2Vx!l*C
+2026-07-17 06:52:10,057 : INFO : test_Singup_or_createuser_002 : 58 : email---->omnikita@example.org
+2026-07-17 06:52:10,099 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+918730180055
+2026-07-17 06:52:11,081 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-17 06:52:11,082 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-17 06:52:11,347 : INFO : test_Singup_or_createuser_002 : 53 : username---->kwali
+2026-07-17 06:52:11,407 : INFO : test_Singup_or_createuser_002 : 56 : password---->jOTGpzSr_8
+2026-07-17 06:52:11,457 : INFO : test_Singup_or_createuser_002 : 58 : email---->mohini20@example.com
+2026-07-17 06:52:11,501 : INFO : test_Singup_or_createuser_002 : 60 : phone---->+917738817290
+2026-07-17 06:52:12,282 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-17 06:52:12,282 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-17 06:52:12,563 : INFO : test_Singup_or_createuser_002 : 53 : username---->morevamakshi
+2026-07-17 06:52:12,591 : INFO : test_Singup_or_createuser_002 : 56 : password---->hen13QQqR_
+2026-07-17 06:52:12,625 : INFO : test_Singup_or_createuser_002 : 58 : email---->yratti@example.com
+2026-07-17 06:52:12,664 : INFO : test_Singup_or_createuser_002 : 60 : phone---->00079383602
+2026-07-17 06:52:13,512 : INFO : test_Singup_or_createuser_002 : 48 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-17 06:52:13,512 : INFO : test_Singup_or_createuser_002 : 49 : URL---->https://apps.credence.in/User.html
+2026-07-17 06:52:13,995 : INFO : test_Singup_or_createuser_002 : 53 : username---->usaran
+2026-07-17 06:52:14,035 : INFO : test_Singup_or_createuser_002 : 56 : password---->h7IF(D6q_m
+2026-07-17 06:52:14,079 : INFO : test_Singup_or_createuser_002 : 58 : email---->jonathangarde@example.org
+2026-07-17 06:52:14,123 : INFO : test_Singup_or_createuser_002 : 60 : phone---->6000747512
+2026-07-17 07:42:38,532 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:42:38,533 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:42:40,430 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:44:33,236 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:44:33,237 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:44:35,055 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:45:36,915 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:45:36,915 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:45:38,288 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:48:34,913 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:48:34,913 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:48:36,772 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:48:38,109 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Dashboard
+2026-07-17 07:49:06,780 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:49:06,780 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:49:08,302 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:08,481 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:49:09,766 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:10,375 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:49:10,680 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:11,299 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:49:11,586 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:12,221 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:49:55,145 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:49:55,146 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:49:56,533 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:58,096 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Dashboard
+2026-07-17 07:49:59,002 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:49:59,630 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:49:59,924 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:50:00,555 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:50:00,854 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:50:01,473 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:53:03,205 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:53:03,206 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:53:05,067 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:53:05,256 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:53:06,809 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:53:07,431 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:53:07,835 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:53:08,549 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:53:08,860 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:53:09,348 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:54:08,623 : INFO : test_loginpage_ddt_003 : 79 : -----max row--->5------
+2026-07-17 07:54:08,623 : INFO : test_loginpage_ddt_003 : 80 : -----Start loginpage_ddt Test Case 1------
+2026-07-17 07:54:10,169 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:54:11,437 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Dashboard
+2026-07-17 07:54:12,349 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:54:13,073 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:54:13,486 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:54:14,195 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-17 07:54:14,607 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
+2026-07-17 07:54:15,222 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login

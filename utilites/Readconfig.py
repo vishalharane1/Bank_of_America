@@ -14,3 +14,7 @@ class Read_config_class:
     def get_usersingup_url():
         return config.get("URL","usersingup_url")
 
+    @staticmethod
+    def get_loginpage_url():
+        return config.get("URL","loginpage_url")
+

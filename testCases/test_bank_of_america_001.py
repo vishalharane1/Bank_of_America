@@ -3,7 +3,8 @@ import time
 import pytest
 from faker import Faker
 
-from pageObjects.SingUp_page_object import createuser_class
+from pageObjects.LoginPage import Loginpage
+from pageObjects.SingUpPage import createuser_class
 from utilites.Excel_ulitiies import Excel_Ulitiles_class
 from utilites.Logger import Log_genarator_class
 from utilites.Readconfig import Read_config_class
@@ -16,8 +17,10 @@ class Test_BankApplication:
 
     bank_url=Read_config_class.get_bankapp_url()
     usersingup_url=Read_config_class.get_usersingup_url()
+    login_url=Read_config_class.get_loginpage_url()
     excel_path=r"C:\Users\visha\Desktop\PyProject\Bank_Application_Bank_of_America\TestData\Faker_Data.xlsx"
     sheetname="Sheet1"
+    filepath_ddt=r"C:\Users\visha\Desktop\PyProject\Bank_Application_Bank_of_America\TestData\TestData_For_DDT.xlsx"
     def test_VerifyURLAndTitle_001(self):
         self.log.info("-----Start VerifyURLAndTitle Test Case 1------")
         self.driver.get(self.bank_url)
@@ -53,16 +56,63 @@ class Test_BankApplication:
             self.log.info(f"username---->{self.username}")
             #self.singup_obj.enter_password(self.password)
             self.singup_obj.enter_password("P@ssw0rd123")
-            self.log.info(f"password---->{self.password}")
+            self.log.info(f"password---->P@ssw0rd123")
             self.singup_obj.enter_email(self.email)
             self.log.info(f"email---->{self.email}")
             self.singup_obj.enter_phone(self.phone)
             self.log.info(f"phone---->{self.phone}")
 
             self.singup_obj.click_crete_user()
-            message=self.singup_obj.message_for_print()
-            Excel_Ulitiles_class.write_date_to_excel(self.excel_path, self.sheetname, i , 6, message)
+            actual_result=self.singup_obj.message_for_print()
+            Excel_Ulitiles_class.write_date_to_excel(self.excel_path, self.sheetname, i , 6, actual_result)
+            expected_result=Excel_Ulitiles_class.read_data_from_excel(self.excel_path, self.sheetname, i,7)
+            if expected_result==actual_result:
+                Excel_Ulitiles_class.write_date_to_excel(self.excel_path, self.sheetname, i, 8, "Pass")
+            else:
+                Excel_Ulitiles_class.write_date_to_excel(self.excel_path, self.sheetname, i, 8, "Fail")
+
             self.singup_obj.click_singupbutton()
+    print("-----Test cases Ended  test_Singup_or_createuser_002 -------")
+
+    def test_loginpage_ddt_003(self):
+        max_row=Excel_Ulitiles_class.get_max_row_from_excel(self.filepath_ddt,sheetname=self.sheetname)
+        self.log.info(f"-----max row--->{max_row}------")
+        self.log.info("-----Start loginpage_ddt Test Case 1------")
+        for i in range(2,max_row+1):
+            username=Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt,self.sheetname,i,2)
+            password=Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt,self.sheetname,i,3)
+            expected_result=Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt,self.sheetname,i,4)
+            self.driver.get(self.login_url)
+            self.log.info(f"URL---->{self.login_url}")
+            self.login=Loginpage(self.driver)
+            self.login.enter_username(username)
+            self.login.enter_password(password)
+            self.login.click_login_button()
+            self.log.info(f"bank_app_login_page Title-->{self.driver.title}")
+            try:
+                assert self.driver.title=="Dashboard"
+                Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt, self.sheetname, i, 5, "Pass")
+                self.login.click_logout_button()
+
+            except:
+                Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt,self.sheetname,i,5,"Fail")
+            actual_result=Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt,self.sheetname,i,5)
+            if actual_result==expected_result:
+                Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt,self.sheetname,i,6,"Test cases Pass")
+            else:
+                Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt,self.sheetname,i,6,"Test cases Fail")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
