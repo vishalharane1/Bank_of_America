@@ -6,6 +6,8 @@ class Loginpage:
     password_id="password"
     loginButton_id="loginButton"
     logout_xpath="//a[normalize-space()='Logout']"
+    Customer_Management_xpath = "//a[normalize-space()='Customer Management']"
+    Create_Customer_xpath="//a[normalize-space()='Create Customer']"
 
 
     def __init__(self,driver):
@@ -24,6 +26,17 @@ class Loginpage:
 
     def click_logout_button(self):
         self.driver.find_element(By.XPATH,self.logout_xpath).click()
+
+    ####starting customer management#######
+    def click_Customer_Management(self):
+        button_Customer_Management = self.driver.find_element(By.XPATH, self.Customer_Management_xpath)
+        self.driver.execute_script("arguments[0].scrollIntoView();", button_Customer_Management)
+        button_Customer_Management.click()
+
+    def click_Create_Customer(self):
+        button_Create_Customer_= self.driver.find_element(By.XPATH, self.Create_Customer_xpath)
+        self.driver.execute_script("arguments[0].scrollIntoView();", button_Create_Customer_)
+        button_Create_Customer_.click()
 
 
 

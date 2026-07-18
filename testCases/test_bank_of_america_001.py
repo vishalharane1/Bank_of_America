@@ -3,6 +3,7 @@ import time
 import pytest
 from faker import Faker
 
+from pageObjects.Customer_Management import Customer_Management
 from pageObjects.LoginPage import Loginpage
 from pageObjects.SingUpPage import createuser_class
 from utilites.Excel_ulitiies import Excel_Ulitiles_class
@@ -21,6 +22,8 @@ class Test_BankApplication:
     excel_path=r"C:\Users\visha\Desktop\PyProject\Bank_Application_Bank_of_America\TestData\Faker_Data.xlsx"
     sheetname="Sheet1"
     filepath_ddt=r"C:\Users\visha\Desktop\PyProject\Bank_Application_Bank_of_America\TestData\TestData_For_DDT.xlsx"
+    file_path_create_user=r"C:\Users\visha\Desktop\PyProject\Bank_Application_Bank_of_America\TestData\Pune_Users_Test_Data.xlsx"
+    sheetname_create_user="Pune Users"
     def test_VerifyURLAndTitle_001(self):
         self.log.info("-----Start VerifyURLAndTitle Test Case 1------")
         self.driver.get(self.bank_url)
@@ -101,6 +104,51 @@ class Test_BankApplication:
                 Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt,self.sheetname,i,6,"Test cases Pass")
             else:
                 Excel_Ulitiles_class.write_date_to_excel(self.filepath_ddt,self.sheetname,i,6,"Test cases Fail")
+
+
+    def test_customer_management_004(self):
+        self.log.info(f"------Starting  customer_management 004 test case------------")
+        username=Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt,self.sheetname,2,2)
+        password = Excel_Ulitiles_class.read_data_from_excel(self.filepath_ddt, self.sheetname, 2, 3)
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.customer_management = Customer_Management(self.driver)
+        self.log.info(f"username-->{username}")
+        self.customer_management.enter_username(username)
+        self.log.info(f"password-->{password}")
+        self.customer_management.enter_password(password)
+        self.customer_management.click_login_button()
+        self.log.info(f"bank_app_login_page Title-->{self.driver.title}")
+        self.customer_management.click_Customer_Management()
+        self.log.info(f"bank_app_login_page Title-->{self.driver.title}")
+        assert self.driver.title=="Customer Management"
+        self.customer_management.click_Create_Customer()
+        self.log.info(f"bank_app_login_page Title-->{self.driver.title}")
+        assert self.driver.title == "Create Customer"
+        max_row=Excel_Ulitiles_class.get_max_row_from_excel(self.file_path_create_user,self.sheetname_create_user)
+        self.log.info(f"max rows--->{max_row}")
+        for i in range(2,max_row+1):
+            userid=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,1)
+            firstname=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,2)
+            lastName=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,3)
+            dateOfBirth=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,4)
+            address=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,5)
+            city=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,6)
+            state=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,7)
+            zipCode=Excel_Ulitiles_class.read_data_from_excel(self.file_path_create_user,self.sheetname_create_user,i,8)
+            self.customer_management.enter_userid(userid)
+            self.customer_management.enter_firstName(firstname)
+            self.customer_management.enter_lastName(lastName)
+            self.customer_management.enter_dateOfBirth(dateOfBirth)
+            self.customer_management.enter_address(address)
+            self.customer_management.enter_city(city)
+            self.customer_management.enter_state(state)
+            self.customer_management.enter_zipCode(zipCode)
+            self.customer_management.click_createCustomerBtn()
+            self.customer_management.click_Create_Customer()
+
+
+
 
 
 

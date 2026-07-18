@@ -467,3 +467,46 @@
 2026-07-17 07:54:14,195 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
 2026-07-17 07:54:14,607 : INFO : test_loginpage_ddt_003 : 86 : URL---->https://apps.credence.in/login.html
 2026-07-17 07:54:15,222 : INFO : test_loginpage_ddt_003 : 91 : bank_app_login_page Title-->Login
+2026-07-18 22:31:01,194 : INFO : test_customer_management_004 : 107 : ------Starting  customer_management 004 test case------------
+2026-07-18 22:31:04,402 : INFO : test_customer_management_004 : 111 : URL---->https://apps.credence.in/login.html
+2026-07-18 22:31:04,402 : INFO : test_customer_management_004 : 113 : username-->usaran
+2026-07-18 22:31:04,487 : INFO : test_customer_management_004 : 115 : password-->P@ssw0rd123
+2026-07-18 22:31:05,737 : INFO : test_customer_management_004 : 118 : bank_app_login_page Title-->Dashboard
+2026-07-18 22:31:30,578 : INFO : test_customer_management_004 : 107 : ------Starting  customer_management 004 test case------------
+2026-07-18 22:31:32,150 : INFO : test_customer_management_004 : 111 : URL---->https://apps.credence.in/login.html
+2026-07-18 22:31:32,150 : INFO : test_customer_management_004 : 113 : username-->usaran
+2026-07-18 22:31:32,217 : INFO : test_customer_management_004 : 115 : password-->P@ssw0rd123
+2026-07-18 22:31:33,366 : INFO : test_customer_management_004 : 118 : bank_app_login_page Title-->Dashboard
+2026-07-18 22:31:33,712 : INFO : test_customer_management_004 : 120 : bank_app_login_page Title-->Customer Management
+2026-07-18 22:31:57,945 : INFO : test_customer_management_004 : 107 : ------Starting  customer_management 004 test case------------
+2026-07-18 22:31:59,494 : INFO : test_customer_management_004 : 111 : URL---->https://apps.credence.in/login.html
+2026-07-18 22:31:59,494 : INFO : test_customer_management_004 : 113 : username-->usaran
+2026-07-18 22:31:59,585 : INFO : test_customer_management_004 : 115 : password-->P@ssw0rd123
+2026-07-18 22:32:00,912 : INFO : test_customer_management_004 : 118 : bank_app_login_page Title-->Dashboard
+2026-07-18 22:32:01,362 : INFO : test_customer_management_004 : 120 : bank_app_login_page Title-->Customer Management
+2026-07-18 22:36:04,310 : INFO : test_customer_management_004 : 108 : ------Starting  customer_management 004 test case------------
+2026-07-18 22:36:07,432 : INFO : test_customer_management_004 : 112 : URL---->https://apps.credence.in/login.html
+2026-07-18 22:36:07,433 : INFO : test_customer_management_004 : 114 : username-->usaran
+2026-07-18 22:36:07,549 : INFO : test_customer_management_004 : 116 : password-->P@ssw0rd123
+2026-07-18 22:37:34,404 : INFO : test_customer_management_004 : 108 : ------Starting  customer_management 004 test case------------
+2026-07-18 22:37:35,992 : INFO : test_customer_management_004 : 112 : URL---->https://apps.credence.in/login.html
+2026-07-18 22:37:35,992 : INFO : test_customer_management_004 : 114 : username-->usaran
+2026-07-18 22:37:36,057 : INFO : test_customer_management_004 : 116 : password-->P@ssw0rd123
+2026-07-18 22:37:38,770 : INFO : test_customer_management_004 : 119 : bank_app_login_page Title-->Dashboard
+2026-07-18 22:37:39,239 : INFO : test_customer_management_004 : 121 : bank_app_login_page Title-->Customer Management
+2026-07-18 23:11:48,815 : INFO : test_customer_management_004 : 110 : ------Starting  customer_management 004 test case------------
+2026-07-18 23:11:50,768 : INFO : test_customer_management_004 : 114 : URL---->https://apps.credence.in/login.html
+2026-07-18 23:11:50,768 : INFO : test_customer_management_004 : 116 : username-->usaran
+2026-07-18 23:11:50,885 : INFO : test_customer_management_004 : 118 : password-->P@ssw0rd123
+2026-07-18 23:11:52,818 : INFO : test_customer_management_004 : 121 : bank_app_login_page Title-->Dashboard
+2026-07-18 23:11:53,246 : INFO : test_customer_management_004 : 123 : bank_app_login_page Title-->Customer Management
+2026-07-18 23:11:53,639 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Create Customer
+2026-07-18 23:11:53,658 : INFO : test_customer_management_004 : 129 : max rows--->11
+2026-07-18 23:13:58,562 : INFO : test_customer_management_004 : 110 : ------Starting  customer_management 004 test case------------
+2026-07-18 23:14:00,418 : INFO : test_customer_management_004 : 114 : URL---->https://apps.credence.in/login.html
+2026-07-18 23:14:00,419 : INFO : test_customer_management_004 : 116 : username-->usaran
+2026-07-18 23:14:00,535 : INFO : test_customer_management_004 : 118 : password-->P@ssw0rd123
+2026-07-18 23:14:01,868 : INFO : test_customer_management_004 : 121 : bank_app_login_page Title-->Dashboard
+2026-07-18 23:14:02,276 : INFO : test_customer_management_004 : 123 : bank_app_login_page Title-->Customer Management
+2026-07-18 23:14:02,680 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Create Customer
+2026-07-18 23:14:02,695 : INFO : test_customer_management_004 : 129 : max rows--->11
