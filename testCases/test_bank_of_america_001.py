@@ -7,6 +7,7 @@ from pageObjects.Account_Management import Account_management_class
 from pageObjects.Customer_Management import Customer_Management
 from pageObjects.LoginPage import Loginpage
 from pageObjects.SingUpPage import createuser_class
+from pageObjects.View_Funds_Transfers import View_funds_tranfers_class
 from utilites.Excel_ulitiies import Excel_Ulitiles_class
 from utilites.Logger import Log_genarator_class
 from utilites.Readconfig import Read_config_class
@@ -161,6 +162,21 @@ class Test_BankApplication:
         self.account_obj.click_accountmangement_button()
         self.account_obj.click_viewallaccount_button()
         self.account_obj.table_data_insert()
+
+    def test_view_fund_transfers(self):
+        self.log.info(f"\n------Starting  test_view_fund_transfers test case------------")
+        username = Read_config_class.get_username()
+        password = Read_config_class.get_password()
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.v_f_t = View_funds_tranfers_class(self.driver)
+        self.v_f_t.enter_username(username)
+        self.v_f_t.enter_password(password)
+        self.v_f_t.click_login_button()
+        self.v_f_t.click_accountmangement_button()
+        self.v_f_t.click_viewallaccount_button()
+        self.v_f_t.table_data_insert()
+
 
 
 

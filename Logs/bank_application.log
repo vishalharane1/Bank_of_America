@@ -538,3 +538,36 @@
 2026-07-21 10:56:31,486 : INFO : test_account_mangement_005 : 152 : 
 ------Starting  account_mangement 005 test case------------
 2026-07-21 10:56:33,523 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 14:41:08,891 : INFO : test_account_mangement_005 : 153 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 14:41:11,176 : INFO : test_account_mangement_005 : 157 : URL---->https://apps.credence.in/login.html
+2026-07-21 14:41:35,124 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 14:41:36,433 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 14:42:56,212 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 14:42:57,868 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 14:44:59,599 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 14:45:01,236 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 19:42:41,320 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 19:43:30,695 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 19:46:44,469 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 19:48:07,098 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 20:23:38,644 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 20:23:40,315 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 20:24:58,319 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 20:25:00,534 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 20:28:44,961 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 20:28:47,059 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 20:29:04,681 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 20:29:04,937 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-21 20:29:23,370 : INFO : test_view_fund_transfers : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-21 20:29:25,198 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
