@@ -510,3 +510,31 @@
 2026-07-18 23:14:02,276 : INFO : test_customer_management_004 : 123 : bank_app_login_page Title-->Customer Management
 2026-07-18 23:14:02,680 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Create Customer
 2026-07-18 23:14:02,695 : INFO : test_customer_management_004 : 129 : max rows--->11
+2026-07-21 07:16:44,376 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 07:16:46,113 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 07:18:57,746 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 07:18:59,415 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 07:19:57,088 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 07:19:58,524 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 07:20:00,502 : INFO : test_account_mangement_005 : 164 : 
+--max_row----1
+2026-07-21 07:23:03,815 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 07:23:05,585 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 07:23:07,562 : INFO : test_account_mangement_005 : 164 : 
+--max_row----10
+2026-07-21 10:51:31,578 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 10:51:33,700 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 10:53:46,267 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 10:53:47,848 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 10:54:46,897 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 10:54:48,461 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html
+2026-07-21 10:56:31,486 : INFO : test_account_mangement_005 : 152 : 
+------Starting  account_mangement 005 test case------------
+2026-07-21 10:56:33,523 : INFO : test_account_mangement_005 : 156 : URL---->https://apps.credence.in/login.html

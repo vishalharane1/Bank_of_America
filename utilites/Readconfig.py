@@ -18,3 +18,11 @@ class Read_config_class:
     def get_loginpage_url():
         return config.get("URL","loginpage_url")
 
+    @staticmethod
+    def get_username():
+        return config.get("login info","username")
+
+    @staticmethod
+    def get_password():
+        return config.get("login info","password")
+

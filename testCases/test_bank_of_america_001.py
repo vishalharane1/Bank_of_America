@@ -3,6 +3,7 @@ import time
 import pytest
 from faker import Faker
 
+from pageObjects.Account_Management import Account_management_class
 from pageObjects.Customer_Management import Customer_Management
 from pageObjects.LoginPage import Loginpage
 from pageObjects.SingUpPage import createuser_class
@@ -146,6 +147,22 @@ class Test_BankApplication:
             self.customer_management.enter_zipCode(zipCode)
             self.customer_management.click_createCustomerBtn()
             self.customer_management.click_Create_Customer()
+
+    def test_account_mangement_005(self):
+        self.log.info(f"\n------Starting  account_mangement 005 test case------------")
+        username=Read_config_class.get_username()
+        password=Read_config_class.get_password()
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.account_obj=Account_management_class(self.driver)
+        self.account_obj.enter_username(username)
+        self.account_obj.enter_password(password)
+        self.account_obj.click_login_button()
+        self.account_obj.click_accountmangement_button()
+        self.account_obj.click_viewallaccount_button()
+        self.account_obj.table_data_insert()
+
+
 
 
 
