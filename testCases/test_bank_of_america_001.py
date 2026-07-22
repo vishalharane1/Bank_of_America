@@ -5,9 +5,11 @@ from faker import Faker
 
 from pageObjects.Account_Management import Account_management_class
 from pageObjects.Bill_Payment import Bill_Payment_class
+from pageObjects.CustomerSupport import CustomerSupport_class
 from pageObjects.Customer_Management import Customer_Management
 from pageObjects.LoginPage import Loginpage
 from pageObjects.SingUpPage import createuser_class
+from pageObjects.Transaction_History import TransactionHistory_class
 from pageObjects.View_Funds_Transfers import View_funds_tranfers_class
 from utilites.Excel_ulitiies import Excel_Ulitiles_class
 from utilites.Logger import Log_genarator_class
@@ -196,6 +198,66 @@ class Test_BankApplication:
         self.billp.click_pay_button()
         self.log.info(f"\n------{self.billp.validation_text()}------------")
         assert self.billp.validation_text()=="Bill payment created successfully"
+
+    def test_transaction_history_008(self):
+        self.log.info(f"\n------Starting  test_transaction_history_008 test case------------")
+        username = Read_config_class.get_username()
+        password = Read_config_class.get_password()
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.log.info(f"TITLE---->{self.driver.title}")
+
+        self.billp = TransactionHistory_class(self.driver)
+        self.transaction = TransactionHistory_class(self.driver)
+        self.transaction.enter_username(username)
+        self.transaction.enter_password(password)
+        self.transaction.click_login_button()
+        self.log.info(f"TITLE---->{self.driver.title}")
+        assert self.driver.title in [ "Dashboard",'Login']
+        self.transaction.click_TransactionHistory_button()
+        assert self.driver.title == "Transaction History"
+        self.transaction.enter_accountId(1)
+        self.transaction.submit_button()
+        self.transaction.table_data_insert()
+
+    def test_customer_support_009(self):
+        self.log.info(f"\n------Starting  test_transaction_history_008 test case------------")
+        username = Read_config_class.get_username()
+        password = Read_config_class.get_password()
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.log.info(f"TITLE---->{self.driver.title}")
+        self.CustomerSupport = CustomerSupport_class(self.driver)
+        self.CustomerSupport.enter_username(username)
+        self.CustomerSupport.enter_password(password)
+        self.CustomerSupport.click_login_button()
+        self.log.info(f"TITLE---->{self.driver.title}")
+        assert self.driver.title in [ "Dashboard",'Login']
+        self.CustomerSupport.click_Customer_support()
+        assert self.driver.title=="Customer Support"
+        for i in range(1,6):
+            fake=Faker()
+            name=fake.name()
+            email=fake.email()
+            phone_no = fake.numerify("##########")
+            issue = fake.random_element(elements=[
+                "Unable to login to my account",
+                "Payment transaction failed",
+                "Unable to reset my password",
+                "Customer account is not accessible",
+                "Website is loading very slowly"
+            ])
+            self.CustomerSupport.enter_name(name)
+            self.CustomerSupport.enter_email(email)
+            self.CustomerSupport.enter_phone(phone_no)
+            self.CustomerSupport.enter_issue(issue)
+            self.CustomerSupport.click_sumit()
+            assert self.CustomerSupport.validation_text()=="Support request submitted successfully!"
+        self.CustomerSupport.click_logout_button()
+
+
+
+
 
 
 

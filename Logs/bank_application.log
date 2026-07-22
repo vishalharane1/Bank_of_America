@@ -600,3 +600,312 @@
 2026-07-22 08:49:55,541 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
 2026-07-22 08:49:57,810 : INFO : test_bill_payment_007 : 197 : 
 ------Bill payment created successfully------------
+2026-07-22 19:55:29,014 : INFO : test_VerifyURLAndTitle_001 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 19:55:31,089 : INFO : test_VerifyURLAndTitle_001 : 33 : URL---->https://apps.credence.in/
+2026-07-22 19:55:31,103 : INFO : test_VerifyURLAndTitle_001 : 34 : TITLE---->Bank Application
+2026-07-22 19:55:31,228 : INFO : test_Singup_or_createuser_002 : 39 : -----max row--->6------
+2026-07-22 19:55:31,230 : INFO : test_Singup_or_createuser_002 : 40 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 19:55:33,171 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:55:33,172 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:55:34,158 : INFO : test_Singup_or_createuser_002 : 62 : username---->jagdish70
+2026-07-22 19:55:34,447 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:55:34,662 : INFO : test_Singup_or_createuser_002 : 67 : email---->yprabhu@example.net
+2026-07-22 19:55:35,333 : INFO : test_Singup_or_createuser_002 : 69 : phone---->4649631106
+2026-07-22 19:55:37,546 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:55:37,547 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:55:38,015 : INFO : test_Singup_or_createuser_002 : 62 : username---->matthewsaha
+2026-07-22 19:55:38,162 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:55:38,311 : INFO : test_Singup_or_createuser_002 : 67 : email---->jdesai@example.com
+2026-07-22 19:55:38,424 : INFO : test_Singup_or_createuser_002 : 69 : phone---->+912660133930
+2026-07-22 19:55:39,885 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:55:39,886 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:55:40,245 : INFO : test_Singup_or_createuser_002 : 62 : username---->ekantika33
+2026-07-22 19:55:40,367 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:55:40,504 : INFO : test_Singup_or_createuser_002 : 67 : email---->sakshamkaur@example.net
+2026-07-22 19:55:40,631 : INFO : test_Singup_or_createuser_002 : 69 : phone---->5205216538
+2026-07-22 19:55:41,821 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:55:41,822 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:55:42,132 : INFO : test_Singup_or_createuser_002 : 62 : username---->sinhaumang
+2026-07-22 19:55:42,216 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:55:42,298 : INFO : test_Singup_or_createuser_002 : 67 : email---->ubanerjee@example.com
+2026-07-22 19:55:42,374 : INFO : test_Singup_or_createuser_002 : 69 : phone---->0138384397
+2026-07-22 19:55:44,058 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:55:44,059 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:55:44,827 : INFO : test_Singup_or_createuser_002 : 62 : username---->zaid77
+2026-07-22 19:55:45,404 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:55:46,047 : INFO : test_Singup_or_createuser_002 : 67 : email---->chakrabortykavya@example.net
+2026-07-22 19:55:46,573 : INFO : test_Singup_or_createuser_002 : 69 : phone---->6473140353
+2026-07-22 19:55:49,052 : INFO : test_loginpage_ddt_003 : 85 : -----max row--->5------
+2026-07-22 19:55:49,053 : INFO : test_loginpage_ddt_003 : 86 : -----Start loginpage_ddt Test Case 1------
+2026-07-22 19:55:49,425 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:55:51,399 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Dashboard
+2026-07-22 19:55:53,003 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:55:53,639 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:55:53,992 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:55:54,589 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:55:54,934 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:55:55,577 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:55:55,645 : INFO : test_customer_management_004 : 113 : ------Starting  customer_management 004 test case------------
+2026-07-22 19:55:56,354 : INFO : test_customer_management_004 : 117 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:55:56,355 : INFO : test_customer_management_004 : 119 : username-->usaran
+2026-07-22 19:55:56,424 : INFO : test_customer_management_004 : 121 : password-->P@ssw0rd123
+2026-07-22 19:55:57,203 : INFO : test_customer_management_004 : 124 : bank_app_login_page Title-->Dashboard
+2026-07-22 19:55:57,686 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Customer Management
+2026-07-22 19:55:58,089 : INFO : test_customer_management_004 : 129 : bank_app_login_page Title-->Create Customer
+2026-07-22 19:55:58,107 : INFO : test_customer_management_004 : 132 : max rows--->11
+2026-07-22 19:56:22,815 : INFO : test_account_mangement_005 : 154 : 
+------Starting  account_mangement 005 test case------------
+2026-07-22 19:56:23,121 : INFO : test_account_mangement_005 : 158 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:56:30,459 : INFO : test_view_fund_transfers_006 : 168 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 19:56:30,695 : INFO : test_view_fund_transfers_006 : 172 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:56:36,979 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 19:56:37,261 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:56:40,001 : INFO : test_bill_payment_007 : 197 : 
+------Bill payment created successfully------------
+2026-07-22 19:58:16,245 : INFO : test_VerifyURLAndTitle_001 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 19:58:18,029 : INFO : test_VerifyURLAndTitle_001 : 33 : URL---->https://apps.credence.in/
+2026-07-22 19:58:18,044 : INFO : test_VerifyURLAndTitle_001 : 34 : TITLE---->Bank Application
+2026-07-22 19:58:18,128 : INFO : test_Singup_or_createuser_002 : 39 : -----max row--->6------
+2026-07-22 19:58:18,129 : INFO : test_Singup_or_createuser_002 : 40 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 19:58:18,978 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:58:18,978 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:58:19,440 : INFO : test_Singup_or_createuser_002 : 62 : username---->jagdishjohal
+2026-07-22 19:58:19,585 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:58:19,739 : INFO : test_Singup_or_createuser_002 : 67 : email---->mannanrohan@example.net
+2026-07-22 19:58:19,868 : INFO : test_Singup_or_createuser_002 : 69 : phone---->02754207874
+2026-07-22 19:58:22,028 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:58:22,033 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:58:22,555 : INFO : test_Singup_or_createuser_002 : 62 : username---->dhaliwalekapad
+2026-07-22 19:58:22,686 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:58:22,805 : INFO : test_Singup_or_createuser_002 : 67 : email---->garaojasvi@example.com
+2026-07-22 19:58:22,893 : INFO : test_Singup_or_createuser_002 : 69 : phone---->09110838005
+2026-07-22 19:58:25,833 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:58:25,833 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:58:26,187 : INFO : test_Singup_or_createuser_002 : 62 : username---->advikapant
+2026-07-22 19:58:26,262 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:58:26,346 : INFO : test_Singup_or_createuser_002 : 67 : email---->tkrishnamurthy@example.net
+2026-07-22 19:58:26,428 : INFO : test_Singup_or_createuser_002 : 69 : phone---->05174585018
+2026-07-22 19:58:27,509 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:58:27,509 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:58:27,833 : INFO : test_Singup_or_createuser_002 : 62 : username---->vdash
+2026-07-22 19:58:27,906 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:58:27,980 : INFO : test_Singup_or_createuser_002 : 67 : email---->maanavrajan@example.net
+2026-07-22 19:58:28,064 : INFO : test_Singup_or_createuser_002 : 69 : phone---->5201088826
+2026-07-22 19:58:29,038 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 19:58:29,038 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 19:58:29,368 : INFO : test_Singup_or_createuser_002 : 62 : username---->nigamjacob
+2026-07-22 19:58:29,442 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 19:58:29,517 : INFO : test_Singup_or_createuser_002 : 67 : email---->gopal30@example.org
+2026-07-22 19:58:29,596 : INFO : test_Singup_or_createuser_002 : 69 : phone---->00446066143
+2026-07-22 19:58:30,536 : INFO : test_loginpage_ddt_003 : 85 : -----max row--->5------
+2026-07-22 19:58:30,536 : INFO : test_loginpage_ddt_003 : 86 : -----Start loginpage_ddt Test Case 1------
+2026-07-22 19:58:30,833 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:58:32,158 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Dashboard
+2026-07-22 19:58:33,184 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:58:34,016 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:58:34,519 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:58:35,240 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:58:35,526 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:58:36,144 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 19:58:36,182 : INFO : test_customer_management_004 : 113 : ------Starting  customer_management 004 test case------------
+2026-07-22 19:58:36,447 : INFO : test_customer_management_004 : 117 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:58:36,447 : INFO : test_customer_management_004 : 119 : username-->usaran
+2026-07-22 19:58:36,517 : INFO : test_customer_management_004 : 121 : password-->P@ssw0rd123
+2026-07-22 19:58:37,277 : INFO : test_customer_management_004 : 124 : bank_app_login_page Title-->Dashboard
+2026-07-22 19:58:37,703 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Customer Management
+2026-07-22 19:58:38,116 : INFO : test_customer_management_004 : 129 : bank_app_login_page Title-->Create Customer
+2026-07-22 19:58:38,131 : INFO : test_customer_management_004 : 132 : max rows--->11
+2026-07-22 19:58:58,919 : INFO : test_account_mangement_005 : 154 : 
+------Starting  account_mangement 005 test case------------
+2026-07-22 19:58:59,183 : INFO : test_account_mangement_005 : 158 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:59:05,752 : INFO : test_view_fund_transfers_006 : 168 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 19:59:06,563 : INFO : test_view_fund_transfers_006 : 172 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:59:15,931 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 19:59:16,413 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 19:59:21,661 : INFO : test_bill_payment_007 : 197 : 
+------Bill payment created successfully------------
+2026-07-22 20:13:44,892 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.130); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-22 20:14:04,248 : INFO : test_VerifyURLAndTitle_001 : 31 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 20:14:05,862 : INFO : test_VerifyURLAndTitle_001 : 33 : URL---->https://apps.credence.in/
+2026-07-22 20:14:05,874 : INFO : test_VerifyURLAndTitle_001 : 34 : TITLE---->Bank Application
+2026-07-22 20:14:05,942 : INFO : test_Singup_or_createuser_002 : 39 : -----max row--->6------
+2026-07-22 20:14:05,943 : INFO : test_Singup_or_createuser_002 : 40 : -----Start VerifyURLAndTitle Test Case 1------
+2026-07-22 20:14:06,608 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 20:14:06,608 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 20:14:07,060 : INFO : test_Singup_or_createuser_002 : 62 : username---->ramabina
+2026-07-22 20:14:07,239 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 20:14:07,404 : INFO : test_Singup_or_createuser_002 : 67 : email---->memonrudra@example.net
+2026-07-22 20:14:07,542 : INFO : test_Singup_or_createuser_002 : 69 : phone---->0609716440
+2026-07-22 20:14:09,355 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 20:14:09,355 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 20:14:10,013 : INFO : test_Singup_or_createuser_002 : 62 : username---->croy
+2026-07-22 20:14:10,200 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 20:14:10,331 : INFO : test_Singup_or_createuser_002 : 67 : email---->tlal@example.net
+2026-07-22 20:14:10,469 : INFO : test_Singup_or_createuser_002 : 69 : phone---->+919396950932
+2026-07-22 20:14:11,737 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 20:14:11,738 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 20:14:12,144 : INFO : test_Singup_or_createuser_002 : 62 : username---->qbasu
+2026-07-22 20:14:12,287 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 20:14:12,445 : INFO : test_Singup_or_createuser_002 : 67 : email---->nazarethurishilla@example.net
+2026-07-22 20:14:12,599 : INFO : test_Singup_or_createuser_002 : 69 : phone---->2431384956
+2026-07-22 20:14:13,752 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 20:14:13,752 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 20:14:14,153 : INFO : test_Singup_or_createuser_002 : 62 : username---->fitansen
+2026-07-22 20:14:14,290 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 20:14:14,447 : INFO : test_Singup_or_createuser_002 : 67 : email---->waidaraju@example.org
+2026-07-22 20:14:14,576 : INFO : test_Singup_or_createuser_002 : 69 : phone---->+915446160040
+2026-07-22 20:14:15,721 : INFO : test_Singup_or_createuser_002 : 57 : -----Start test_Singup_or_createuser_002 Test Case 2------
+2026-07-22 20:14:15,721 : INFO : test_Singup_or_createuser_002 : 58 : URL---->https://apps.credence.in/User.html
+2026-07-22 20:14:16,109 : INFO : test_Singup_or_createuser_002 : 62 : username---->gaurisinha
+2026-07-22 20:14:16,259 : INFO : test_Singup_or_createuser_002 : 65 : password---->P@ssw0rd123
+2026-07-22 20:14:16,416 : INFO : test_Singup_or_createuser_002 : 67 : email---->zarna76@example.net
+2026-07-22 20:14:16,530 : INFO : test_Singup_or_createuser_002 : 69 : phone---->2903312564
+2026-07-22 20:14:17,601 : INFO : test_loginpage_ddt_003 : 85 : -----max row--->5------
+2026-07-22 20:14:17,605 : INFO : test_loginpage_ddt_003 : 86 : -----Start loginpage_ddt Test Case 1------
+2026-07-22 20:14:17,913 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:19,358 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Dashboard
+2026-07-22 20:14:22,059 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:22,958 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 20:14:23,418 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:24,165 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 20:14:24,606 : INFO : test_loginpage_ddt_003 : 92 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:25,441 : INFO : test_loginpage_ddt_003 : 97 : bank_app_login_page Title-->Login
+2026-07-22 20:14:25,575 : INFO : test_customer_management_004 : 113 : ------Starting  customer_management 004 test case------------
+2026-07-22 20:14:25,867 : INFO : test_customer_management_004 : 117 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:25,868 : INFO : test_customer_management_004 : 119 : username-->usaran
+2026-07-22 20:14:25,997 : INFO : test_customer_management_004 : 121 : password-->P@ssw0rd123
+2026-07-22 20:14:26,771 : INFO : test_customer_management_004 : 124 : bank_app_login_page Title-->Dashboard
+2026-07-22 20:14:27,234 : INFO : test_customer_management_004 : 126 : bank_app_login_page Title-->Customer Management
+2026-07-22 20:14:27,669 : INFO : test_customer_management_004 : 129 : bank_app_login_page Title-->Create Customer
+2026-07-22 20:14:27,705 : INFO : test_customer_management_004 : 132 : max rows--->11
+2026-07-22 20:14:48,155 : INFO : test_account_mangement_005 : 154 : 
+------Starting  account_mangement 005 test case------------
+2026-07-22 20:14:48,729 : INFO : test_account_mangement_005 : 158 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:52,976 : INFO : test_view_fund_transfers_006 : 168 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 20:14:53,476 : INFO : test_view_fund_transfers_006 : 172 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:14:59,013 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 20:14:59,339 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:15:02,341 : INFO : test_bill_payment_007 : 197 : 
+------Bill payment created successfully------------
+2026-07-22 20:32:27,123 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:32:28,908 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:32:28,914 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:33:59,036 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:34:01,183 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:34:01,195 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:35:03,590 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:35:04,823 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:35:04,839 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:36:47,746 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:36:49,296 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:36:49,308 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:37:31,632 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:37:33,005 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:37:33,009 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:38:19,767 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:38:21,048 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:38:21,054 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:39:32,418 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:39:33,615 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:39:33,623 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:43:47,538 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:43:49,215 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:43:49,224 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:44:39,132 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:44:40,836 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:44:40,843 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:44:42,145 : INFO : test_transaction_history_008 : 214 : TITLE---->Dashboard
+2026-07-22 20:45:27,678 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:45:28,961 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:45:28,970 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:45:30,129 : INFO : test_transaction_history_008 : 214 : TITLE---->Dashboard
+2026-07-22 20:46:50,780 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:46:52,296 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:46:52,305 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:46:52,429 : INFO : test_transaction_history_008 : 214 : TITLE---->Login
+2026-07-22 20:47:39,236 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:47:40,357 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:47:40,362 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:47:40,487 : INFO : test_transaction_history_008 : 214 : TITLE---->Login
+2026-07-22 20:48:40,510 : INFO : test_transaction_history_008 : 202 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 20:48:41,950 : INFO : test_transaction_history_008 : 206 : URL---->https://apps.credence.in/login.html
+2026-07-22 20:48:41,953 : INFO : test_transaction_history_008 : 207 : TITLE---->Login
+2026-07-22 20:48:42,910 : INFO : test_transaction_history_008 : 214 : TITLE---->Login
+2026-07-22 21:36:45,993 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:36:48,367 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:36:48,373 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:36:48,538 : INFO : test_customer_support_009 : 234 : TITLE---->Login
+2026-07-22 21:37:47,316 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:37:54,013 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:37:54,020 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:38:08,442 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 21:40:51,689 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:40:54,226 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:40:54,232 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:40:55,411 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 21:41:58,771 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:42:01,072 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:42:01,078 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:42:02,368 : INFO : test_customer_support_009 : 234 : TITLE---->Login
+2026-07-22 21:44:17,405 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:44:19,539 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:44:19,544 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:44:19,653 : INFO : test_customer_support_009 : 234 : TITLE---->Login
+2026-07-22 21:47:28,912 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.130); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-22 21:47:39,255 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.130); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-22 21:47:45,078 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.130); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-22 21:48:06,776 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:48:08,678 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:48:08,683 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:48:10,168 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 21:49:47,144 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:49:48,902 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:49:48,909 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:49:49,933 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 21:57:55,461 : WARNING : _process_logs : 163 : The chromedriver version (148.0.7778.178) detected in PATH at C:\Users\visha\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (150.0.7871.130); currently, chromedriver 150.0.7871.124 is recommended for chrome 150.*, so it is advised to delete the driver in PATH and retry
+2026-07-22 21:58:11,334 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 21:58:13,778 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 21:58:13,792 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 21:58:15,149 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 22:00:07,930 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 22:00:10,644 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 22:00:10,661 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 22:00:13,033 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 22:02:29,775 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 22:02:31,827 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 22:02:31,838 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 22:02:33,377 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
+2026-07-22 22:05:11,950 : INFO : test_customer_support_009 : 224 : 
+------Starting  test_transaction_history_008 test case------------
+2026-07-22 22:05:14,470 : INFO : test_customer_support_009 : 228 : URL---->https://apps.credence.in/login.html
+2026-07-22 22:05:14,480 : INFO : test_customer_support_009 : 229 : TITLE---->Login
+2026-07-22 22:05:15,917 : INFO : test_customer_support_009 : 234 : TITLE---->Dashboard
