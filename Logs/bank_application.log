@@ -571,3 +571,32 @@
 2026-07-21 20:29:23,370 : INFO : test_view_fund_transfers : 167 : 
 ------Starting  test_view_fund_transfers test case------------
 2026-07-21 20:29:25,198 : INFO : test_view_fund_transfers : 171 : URL---->https://apps.credence.in/login.html
+2026-07-22 07:04:03,059 : INFO : test_view_fund_transfers_006 : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 07:04:04,586 : INFO : test_view_fund_transfers_006 : 171 : URL---->https://apps.credence.in/login.html
+2026-07-22 07:05:04,594 : INFO : test_view_fund_transfers_006 : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 07:05:05,820 : INFO : test_view_fund_transfers_006 : 171 : URL---->https://apps.credence.in/login.html
+2026-07-22 07:10:19,219 : INFO : test_view_fund_transfers_006 : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 07:10:20,757 : INFO : test_view_fund_transfers_006 : 171 : URL---->https://apps.credence.in/login.html
+2026-07-22 07:10:39,796 : INFO : test_view_fund_transfers_006 : 167 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 07:10:40,906 : INFO : test_view_fund_transfers_006 : 171 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:45:12,618 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 08:45:14,317 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:46:41,383 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 08:46:43,104 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:47:09,923 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 08:47:11,269 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:48:44,090 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 08:48:45,890 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:49:54,127 : INFO : test_bill_payment_007 : 182 : 
+------Starting  test_view_fund_transfers test case------------
+2026-07-22 08:49:55,541 : INFO : test_bill_payment_007 : 186 : URL---->https://apps.credence.in/login.html
+2026-07-22 08:49:57,810 : INFO : test_bill_payment_007 : 197 : 
+------Bill payment created successfully------------

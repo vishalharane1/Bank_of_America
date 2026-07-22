@@ -52,11 +52,11 @@ class View_funds_tranfers_class:
 
 
 
-            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i+1,2,TransferID)
-            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i+1,3,FromAccountID)
-            Excel_Ulitiles_class.write_date_to_excel(self.file_path,self.sheetname,i+1,4,ToAccountID)
-            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i+1,5,TransferDate)
-            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i+1,6,Description)
+            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i,2,TransferID)
+            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i,3,FromAccountID)
+            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i,4,ToAccountID)
+            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i,5,TransferDate)
+            Excel_Ulitiles_class.write_date_to_excel(self.file_path_2,self.sheetname,i,6,Description)
 
             self.j+=1
             button=self.driver.find_element(By.XPATH, f"//a[normalize-space()='{str(self.j)}']")
@@ -66,6 +66,8 @@ class View_funds_tranfers_class:
                 break
             else:
                 pass
+
+
 
 
 

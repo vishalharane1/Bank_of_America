@@ -4,6 +4,7 @@ import pytest
 from faker import Faker
 
 from pageObjects.Account_Management import Account_management_class
+from pageObjects.Bill_Payment import Bill_Payment_class
 from pageObjects.Customer_Management import Customer_Management
 from pageObjects.LoginPage import Loginpage
 from pageObjects.SingUpPage import createuser_class
@@ -163,7 +164,7 @@ class Test_BankApplication:
         self.account_obj.click_viewallaccount_button()
         self.account_obj.table_data_insert()
 
-    def test_view_fund_transfers(self):
+    def test_view_fund_transfers_006(self):
         self.log.info(f"\n------Starting  test_view_fund_transfers test case------------")
         username = Read_config_class.get_username()
         password = Read_config_class.get_password()
@@ -176,6 +177,27 @@ class Test_BankApplication:
         self.v_f_t.click_accountmangement_button()
         self.v_f_t.click_viewallaccount_button()
         self.v_f_t.table_data_insert()
+
+    def test_bill_payment_007(self):
+        self.log.info(f"\n------Starting  test_view_fund_transfers test case------------")
+        username = Read_config_class.get_username()
+        password = Read_config_class.get_password()
+        self.driver.get(self.login_url)
+        self.log.info(f"URL---->{self.login_url}")
+        self.billp = Bill_Payment_class(self.driver)
+        self.billp.enter_username(username)
+        self.billp.enter_password(password)
+        self.billp.click_login_button()
+        self.billp.click_BillPayments_button()
+        self.billp.enter_accountId(1)
+        self.billp.enter_payeeName("Sachin mahrtr")
+        self.billp.enter_amount(3000)
+        self.billp.enter_description("Electricity bill")
+        self.billp.click_pay_button()
+        self.log.info(f"\n------{self.billp.validation_text()}------------")
+        assert self.billp.validation_text()=="Bill payment created successfully"
+
+
 
 
 
