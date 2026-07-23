@@ -16,7 +16,7 @@ def browser_setup(request):
     browser=request.config.getoption("--browser")
     if browser=="chrome":
         print("\n----> Lunching chrome browser")
-        driver=webdriver.Chrome(service=service)
+        driver=webdriver.Chrome()
     elif browser=="edge":
         print("\n----> Lunching Edge browser")
         driver=webdriver.Edge()

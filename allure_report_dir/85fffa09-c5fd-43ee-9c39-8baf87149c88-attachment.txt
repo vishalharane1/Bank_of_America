@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:168 
+------Starting  test_view_fund_transfers test case------------
+[32mINFO    [0m root:test_bank_of_america_001.py:172 URL---->https://apps.credence.in/login.html

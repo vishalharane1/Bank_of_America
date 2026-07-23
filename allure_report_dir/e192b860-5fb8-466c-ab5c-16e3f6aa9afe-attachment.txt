@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:113 ------Starting  customer_management 004 test case------------
+[32mINFO    [0m root:test_bank_of_america_001.py:117 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:119 username-->usaran
+[32mINFO    [0m root:test_bank_of_america_001.py:121 password-->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:124 bank_app_login_page Title-->Dashboard
+[32mINFO    [0m root:test_bank_of_america_001.py:126 bank_app_login_page Title-->Customer Management
+[32mINFO    [0m root:test_bank_of_america_001.py:129 bank_app_login_page Title-->Create Customer
+[32mINFO    [0m root:test_bank_of_america_001.py:132 max rows--->11

@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:85 -----max row--->5------
+[32mINFO    [0m root:test_bank_of_america_001.py:86 -----Start loginpage_ddt Test Case 1------
+[32mINFO    [0m root:test_bank_of_america_001.py:92 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:97 bank_app_login_page Title-->Dashboard
+[32mINFO    [0m root:test_bank_of_america_001.py:92 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:97 bank_app_login_page Title-->Login
+[32mINFO    [0m root:test_bank_of_america_001.py:92 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:97 bank_app_login_page Title-->Login
+[32mINFO    [0m root:test_bank_of_america_001.py:92 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:97 bank_app_login_page Title-->Login

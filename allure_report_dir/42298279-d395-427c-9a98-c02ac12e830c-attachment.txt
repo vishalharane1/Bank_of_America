@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:182 
+------Starting  test_view_fund_transfers test case------------
+[32mINFO    [0m root:test_bank_of_america_001.py:186 URL---->https://apps.credence.in/login.html
+[32mINFO    [0m root:test_bank_of_america_001.py:197 
+------Bill payment created successfully------------

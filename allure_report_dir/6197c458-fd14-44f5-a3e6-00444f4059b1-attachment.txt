@@ -1,0 +1,32 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:39 -----max row--->6------
+[32mINFO    [0m root:test_bank_of_america_001.py:40 -----Start VerifyURLAndTitle Test Case 1------
+[32mINFO    [0m root:test_bank_of_america_001.py:57 -----Start test_Singup_or_createuser_002 Test Case 2------
+[32mINFO    [0m root:test_bank_of_america_001.py:58 URL---->https://apps.credence.in/User.html
+[32mINFO    [0m root:test_bank_of_america_001.py:62 username---->jagdishjohal
+[32mINFO    [0m root:test_bank_of_america_001.py:65 password---->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:67 email---->mannanrohan@example.net
+[32mINFO    [0m root:test_bank_of_america_001.py:69 phone---->02754207874
+[32mINFO    [0m root:test_bank_of_america_001.py:57 -----Start test_Singup_or_createuser_002 Test Case 2------
+[32mINFO    [0m root:test_bank_of_america_001.py:58 URL---->https://apps.credence.in/User.html
+[32mINFO    [0m root:test_bank_of_america_001.py:62 username---->dhaliwalekapad
+[32mINFO    [0m root:test_bank_of_america_001.py:65 password---->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:67 email---->garaojasvi@example.com
+[32mINFO    [0m root:test_bank_of_america_001.py:69 phone---->09110838005
+[32mINFO    [0m root:test_bank_of_america_001.py:57 -----Start test_Singup_or_createuser_002 Test Case 2------
+[32mINFO    [0m root:test_bank_of_america_001.py:58 URL---->https://apps.credence.in/User.html
+[32mINFO    [0m root:test_bank_of_america_001.py:62 username---->advikapant
+[32mINFO    [0m root:test_bank_of_america_001.py:65 password---->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:67 email---->tkrishnamurthy@example.net
+[32mINFO    [0m root:test_bank_of_america_001.py:69 phone---->05174585018
+[32mINFO    [0m root:test_bank_of_america_001.py:57 -----Start test_Singup_or_createuser_002 Test Case 2------
+[32mINFO    [0m root:test_bank_of_america_001.py:58 URL---->https://apps.credence.in/User.html
+[32mINFO    [0m root:test_bank_of_america_001.py:62 username---->vdash
+[32mINFO    [0m root:test_bank_of_america_001.py:65 password---->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:67 email---->maanavrajan@example.net
+[32mINFO    [0m root:test_bank_of_america_001.py:69 phone---->5201088826
+[32mINFO    [0m root:test_bank_of_america_001.py:57 -----Start test_Singup_or_createuser_002 Test Case 2------
+[32mINFO    [0m root:test_bank_of_america_001.py:58 URL---->https://apps.credence.in/User.html
+[32mINFO    [0m root:test_bank_of_america_001.py:62 username---->nigamjacob
+[32mINFO    [0m root:test_bank_of_america_001.py:65 password---->P@ssw0rd123
+[32mINFO    [0m root:test_bank_of_america_001.py:67 email---->gopal30@example.org
+[32mINFO    [0m root:test_bank_of_america_001.py:69 phone---->00446066143

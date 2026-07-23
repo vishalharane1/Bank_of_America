@@ -1,0 +1,1 @@
+python -m pip install pytest selenium pytest-xdist pytest-html pytest-sugar pytest-cov openpyxl allure-pytest faker pytest-rerunfailures webdriver-manager pytest-order pytest-dependency

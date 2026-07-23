@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_bank_of_america_001.py:31 -----Start VerifyURLAndTitle Test Case 1------
+[32mINFO    [0m root:test_bank_of_america_001.py:33 URL---->https://apps.credence.in/
+[32mINFO    [0m root:test_bank_of_america_001.py:34 TITLE---->Bank Application
